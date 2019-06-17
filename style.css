@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.icon {
+  margin: 15px;
+  filter: blur(7px);
+}
+.icon:hover {
+  cursor: pointer;
+  filter: blur(0px);
+}
